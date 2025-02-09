@@ -11,3 +11,4 @@ while a < x:
         list.append(B)
     a = a + 1
 print(list)
+print("there are",len(list) ,"factors of x")
