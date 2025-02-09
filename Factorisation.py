@@ -2,12 +2,12 @@
 x = 360
 
 a = 1
-B=0
-
+B = 0
+list = []
 
 while a < x:
     B=x/a
     if B.is_integer():
-        print (B)
+        list.append(B)
     a = a + 1
- 
+print(list)
